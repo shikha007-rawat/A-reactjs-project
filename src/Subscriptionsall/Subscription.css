@@ -1,0 +1,14 @@
+/* kkkk */
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: row;
+   
+}
+.subscription button{
+    padding: 10px;
+    background-color: rgb(63, 122, 218);
+    border-radius: 15px;
+}

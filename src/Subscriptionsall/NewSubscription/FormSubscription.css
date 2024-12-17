@@ -1,0 +1,35 @@
+.new_susbcription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.new_susbcription_control{
+    /* padding: 10px; */
+    margin: 5px;
+    /* background-color: aquamarine; */
+}
+.new_susbcription_control label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.new_susbcription_control input{
+    font: inherit;
+    padding:0.5rem ;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+.new_susbcription_action{
+    text-align: right;
+}
+.new_susbcription_control.invalid input{
+    border-color: red;
+}
+.new_susbcription_control.invalid label{
+    color: red;
+}
+
+
+

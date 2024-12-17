@@ -1,0 +1,24 @@
+.date{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   background-color: black;
+   color: aliceblue;
+   padding: 0.5rem;
+  width: 85px;
+   border-radius: 10px;
+}
+.month, .year, .day{
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.day{
+    font-size: 1.8rem;
+    color: tomato;
+
+}
+.year{
+    color: rgb(255, 255, 167);
+    font-size: 1rem;
+}

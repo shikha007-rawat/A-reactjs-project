@@ -1,0 +1,47 @@
+.new_subscription {
+    background-color: rgb(22, 152, 216);
+    
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 5px;
+}
+
+.new_subscription button  {
+    font: inherit;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: papayawhip;
+    color: tomato;
+    border-radius: 12px;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+
+.new_subscription input,
+label {
+    padding: 8px;
+}
+
+.new_subscription label {
+    font-weight: bold;
+}
+
+.new_subscription input {
+    border-radius: 5px;
+}
+
+.new_subscription button:hover {
+    background-color: palegoldenrod;
+}
+.new_subscription button:active{
+    background-color: #5B99C2;
+    color: #F9DBBA;
+}
+
+
+
+
+  
